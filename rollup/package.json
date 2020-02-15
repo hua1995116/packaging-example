@@ -1,0 +1,15 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup main.js --file bundle.js --format umd --name 'myBundle'"
+  },
+  "keywords": [],
+  "author": "hua1995116 <qiufneghyf@gmail.com> (https://github.com/hua1995116)",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.31.1"
+  }
+}
