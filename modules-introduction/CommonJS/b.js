@@ -1,5 +1,5 @@
-const { name, age } = require('./a');
+const { name, github } = require('./a');
 
-console.log(name, age);
+console.log(name, github);
 
-// qiufeng 18
+// qiufeng https://github.com/hua1995116

@@ -2,5 +2,5 @@ const name = 'qiufeng'
 
 module.exports = {
     name,
-    age: 18
+    github: 'https://github.com/hua1995116'
 }
