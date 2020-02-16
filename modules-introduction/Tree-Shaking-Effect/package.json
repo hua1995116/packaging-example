@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "effect.js",
   "scripts": {
-    "build": "npx rollup index.js --file bundle.js"
+    "effect": "npx rollup index.js --file bundle-effect.js",
+    "no-effect": "npx rollup index.js --file bundle-no-effect.js --no-treeshake.moduleSideEffects"
   },
   "keywords": [],
   "author": "hua1995116 <qiufneghyf@gmail.com> (https://github.com/hua1995116)",

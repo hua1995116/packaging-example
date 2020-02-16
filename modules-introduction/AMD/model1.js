@@ -1,7 +1,8 @@
 define(function () {
+    console.log('model1 entry');
     return {
         getHello: function () {
-            return 'Hello World';
+            return 'model1';
         }
     };
 });
